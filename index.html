@@ -6,33 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jessica McCormack</title>
-    <link rel="stylesheet" href="//style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
     <!--Header-->
-    <header>
-        <div class=header-block>
-        <h1>Jessica Mccormack</h1>
-        </div>
-    </header>
-    <!--Navigation-->
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>Portfolio</li>
+    <div class="clearfix">
+        <header class="nav-header">
+            <h1>Jessica Mccormack</h1>
+        </header>
+        <!--Navigation-->
+        <ul class="nav-links">
+            <div class="portfolio-link">
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
         </ul>
-    </nav>
+        </nav>
+    </div>
+    </div>
     <!--About Me-->
-    <main>
-        <h1>About Me</h1>
-        <img src="Linkedin.jpg" alt="Jessica McCormack" style="height:200px">
-        <p>"Hello! My name is Jessica McCormack. I am from Atlanta, GA i've got a dog named Oliver and love to take him out for runs.</p>
+    <main class="card">
+        <h2>About Me</h2>
+        <hr>
+        <div class="clearfix">
+            <div class="image">
+                <img src="assets/images/Linkedin.JPG" alt="Jessica McCormack" style="height:200px">
+            </div>
+            <div class="about-me-paragraph">
+                <p>"Hello! My name is Jessica McCormack. I am from Atlanta, GA. I graduated from Auburn University summer '17 with a Bachelors Degree in Supply Chain Management. </p>
+                <p>I spend most my free time adventuring around with my 2 year old "beaglador mix" puppy named Oliver.  If I'm not adventuring with Oliver I'm eating at my favorite resurant bartaco with friends and family.</p>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>©</p>
+    <!--Footer-->
+    <div class="f-containter">
+        <div class="f-main">
+
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Copyright &copy;</p>
     </footer>
 </body>
+
+
 
 </html>
